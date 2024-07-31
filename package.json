@@ -1,8 +1,13 @@
-{
-  "scripts": {
-  "build": "tailwindcss build src/styles.css -o public/css/styles.css"
+{  
+"name": "simple-blog",
+"version": "1.0.0",
+"description": "A simple blog application built with PHP and styled using Tailwind CSS",
+"scripts": {
+  "build": "tailwindcss build src/styles.css -o public/css/styles.css",
+  "watch": "nodemon --watch src/styles.css --exec \"npm run build\""
 },
   "devDependencies": {
+    "nodemon": "^3.1.4",
     "tailwindcss": "^3.4.7"
   }
 }
