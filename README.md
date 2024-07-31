@@ -8,5 +8,3 @@ This is a simple blog application built with PHP. It allows users to register, l
 - CRUD operations for blog posts
 - Comment system
 - Image uploads
-
-## Project Structure
