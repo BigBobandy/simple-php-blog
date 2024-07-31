@@ -1,0 +1,32 @@
+# Ignore node_modules directory if you use npm
+node_modules/
+
+# Ignore vendor directory if you use Composer
+vendor/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.cache
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore uploads directory for file uploads
+uploads/
+
+# Ignore Composer's lock file
+composer.lock
+
+# Ignore PHPStorm project files
+*.iml
