@@ -4,7 +4,7 @@
 "description": "A simple blog application built with PHP and styled using Tailwind CSS",
 "scripts": {
   "build": "tailwindcss build src/styles.css -o public/css/styles.css",
-  "watch": "nodemon --watch src/styles.css --exec \"npm run build\""
+  "watch": "nodemon --watch pages/ --ext php --exec \"npm run build\""
 },
   "devDependencies": {
     "nodemon": "^3.1.4",

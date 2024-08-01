@@ -11,9 +11,9 @@ $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
 // PDO options - these are settings to customize how PDO behaves
 $options = [
-    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, // Throw exceptions on errors (easier to debug)
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, // Return rows as associative arrays by default (easy to work with)
-    PDO::ATTR_EMULATE_PREPARES   => false, // Use real prepared statements (safer against SQL injection)
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, 
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, 
+    PDO::ATTR_EMULATE_PREPARES   => false,
 ];
 
 try {

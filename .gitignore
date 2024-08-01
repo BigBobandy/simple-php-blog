@@ -30,3 +30,6 @@ composer.lock
 
 # Ignore PHPStorm project files
 *.iml
+
+# Ignore generated CSS file
+public/css/styles.css
