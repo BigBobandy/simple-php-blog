@@ -52,7 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Register</title>
 </head>
 <body>
-    <h1>Register</h1>
+    <div class="container flex justify-center flex-col p-6 bg-slate-200">
+    <h1 class="text-3xl font-bold">Register</h1>
 
     <?php if (!empty($errors)): ?>
         <ul>
@@ -74,5 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button type="submit">Register</button>
     </form>
+    </div>
 </body>
 </html>
